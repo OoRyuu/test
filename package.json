@@ -1,10 +1,11 @@
 {
   "main": "Server.js",
-  "dependencies": {
-    "scripts": {
+  "scripts": {
           "main": "Server.js",
           "start": "node index.js"
        },
+  "dependencies": {
+    
     "ws": "^8.13.0"
   }
 }
