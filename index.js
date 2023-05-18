@@ -14,6 +14,7 @@ wss.on( "connection", conn => {
 
     conn.on( "message", e => {
         var msg_intero = JSON.parse( e );
+        console.log( msg_intero );
         if( msg_intero[ "destination" ] == "" && msg_intero[ "message" ] == "" )
         {
             all_users[ msg_intero[ "origin" ] ] = conn;
