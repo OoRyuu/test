@@ -1,8 +1,6 @@
 const ws = require ( "ws" );
 const wss = new ws.Server( { port : 3000 } );
 
-console.log( "Funziona!" );
-
 all_users = { };
 // utente1 : conn,
 // utente2 : conn,
